@@ -18,10 +18,12 @@ dgeom(x, p)
 ## Soal 4
 ### 4a.
 Fungsi Probabilitas dari distribusi Chi-Square
-![Chi-Square Probability Function](https://imgur.com/969nDsB)
+
+![Chi-Square Probability Function](https://user-images.githubusercontent.com/80145586/162627051-9e0db1bc-76b8-4951-b9ad-21ad2c0af17b.png)
 
 ## Soal 5
 ### 5a.
 Fungsi Probabilitas dari distribusi Exponensial
-![Exponential Probability Function](https://imgur.com/6Ee30T6)
+
+![Exponential Probability Function](https://user-images.githubusercontent.com/80145586/162627054-5b1e5764-3967-48a3-9c23-dba7ca327297.png)
 
