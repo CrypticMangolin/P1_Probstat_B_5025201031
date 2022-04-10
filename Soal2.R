@@ -8,24 +8,23 @@ dbinom(x, n, p)
 # [1] 0.2181994
 
 # 2b. Histogram 2a
-pasien <- 0:20
-
-plot(pasien, dbinom(pasien,size=20,prob=.2),
-     type='h',
-     main='Binomial Distribution (n=20, p=0.2)',
-     ylab='Probability',
-     xlab ='# Sembuh',
-     lwd=10)
+data <- rbinom(10000,size=20,prob=.2)
+hist(data, xlab='Jumlah Pasien Sembuh')
 
 # No 2c
-# Mean = n*p
-n <- 20
+# Mean
 mu = n*p
 mu
 # [1] 4
 
-# Variance = npq
+mean(data)
+# [1] 4.0021
+
+# Variance
 q = 1-p
 sigma.sq = n*p*q
 sigma.sq
 # [1] 3.2
+
+var(data)
+# [1] 3.172213
